@@ -1,0 +1,9 @@
+A Stack follows the LIFO (Last In First Out) principle, which means the item added last is removed first. In a Stack, insertion and deletion happen from the same end called the top.
+
+A Queue follows the FIFO (First In First Out) principle, which means the item added first is removed first. In a Queue, items are added at the rear and removed from the front.
+
+The main difference is that a Stack works like a reverse order system, while a Queue works like a waiting line system.
+
+Real-Life Examples
+Stack Example: Browser history. The last webpage you visited is the first one you return to when pressing the Back button.
+Queue Example: Print jobs in a printer. The first document sent to the printer is usually printed first.
