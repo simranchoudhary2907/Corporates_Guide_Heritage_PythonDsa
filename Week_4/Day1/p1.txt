@@ -1,0 +1,21 @@
+Node: A node is a basic unit of a linked list. It contains:
+
+Data (value)
+A pointer/reference to the next node
+
+Head: The head is the first node of the linked list. It acts as the starting point for accessing the entire list.
+
+Pointer (Reference):
+A pointer stores the address/reference of another node. In a singly linked list, each node points to the next node.
+
+Diagram of the List: 3 → 16 → 9 → 21
+Head
+ |
+ v
++------+    +------+    +------+    +------+
+|  3   |--->| 16   |--->|  9   |--->| 21   |---> None
++------+    +------+    +------+    +------+
+
+Head points to the node containing 3.
+Each node points to the next node.
+The last node (21) points to None, indicating the end of the chain.

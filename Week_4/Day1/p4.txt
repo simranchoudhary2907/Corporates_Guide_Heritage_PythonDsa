@@ -1,0 +1,18 @@
+| Operation           | Array | Linked List |
+| ------------------- | ----- | ----------- |
+| Access by index     | O(1)  | O(n)        |
+| Insert at beginning | O(n)  | O(1)        |
+| Insert at end       | O(1)* | O(n)        |
+
+
+* Assuming there is space available at the end of the array.
+
+Justification (Array)
+
+Access by index = O(1)
+Arrays store elements in contiguous memory locations, so any element can be accessed directly using its index.
+
+Justification (Linked List)
+
+Access by index = O(n)
+To reach a particular position, the list must be traversed node by node from the head until the desired index is found.

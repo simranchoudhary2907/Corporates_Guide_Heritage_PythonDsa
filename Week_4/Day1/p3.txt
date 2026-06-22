@@ -1,0 +1,31 @@
+| Feature                   | Singly Linked List                   | Doubly Linked List                                          |
+| ------------------------- | ------------------------------------ | ----------------------------------------------------------- |
+| Node Structure            | Stores **data** and **next pointer** | Stores **data**, **previous pointer**, and **next pointer** |
+| Memory Usage              | Less memory required                 | More memory required because of extra previous pointer      |
+| Traversal                 | Can move only forward                | Can move both forward and backward                          |
+| Insertion                 | Simpler implementation               | Slightly more complex implementation                        |
+| Deletion                  | Need access to the previous node     | Easier because previous node is directly available          |
+| Search                    | Forward traversal only               | Forward and backward traversal possible                     |
+| Implementation Complexity | Simple                               | More complex                                                |
+
+
+
+Why is deletion easier in a Doubly Linked List?
+
+When you already have a reference to a node:
+
+In a Singly Linked List, you must first find the previous node before deleting the current node.
+In a Doubly Linked List, each node already contains a pointer to its previous node.
+
+Therefore, deletion is easier because the links can be updated directly without searching for the previous node.
+
+Singly Linked List:
+Previous Node ---> Current Node ---> Next Node
+        ↑
+Must be found first
+
+Doubly Linked List:
+Previous <--> Current <--> Next
+
+Current.prev and Current.next are already available,
+so deletion can be done directly.

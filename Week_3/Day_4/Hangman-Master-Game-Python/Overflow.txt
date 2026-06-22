@@ -24,17 +24,17 @@
                        |
                        v
      Reveal Initial Letters (if applicable)
-  Easy  -> 2 letters revealed
-  Medium -> First letter revealed
-  Hard -> No letters revealed
+      Easy  -> 2 letters revealed
+      Medium -> First letter revealed
+      Hard -> No letters revealed
                        |
                        v
            Display Current Game State
-      • Category
-      • Hidden Word
-      • Lives Remaining
-      • Hints Remaining
-      • Guessed Letters
+            • Category
+            • Hidden Word
+            • Lives Remaining
+            • Hints Remaining
+            • Guessed Letters
                        |
                        v
              Player Enters a Guess
@@ -77,10 +77,10 @@
                         |
                         v
               Display Game Statistics
-         • Score
-         • Current Streak
-         • Best Streak
-         • Achievements
+                • Score
+                • Current Streak
+                • Best Streak
+                • Achievements
                         |
                         v
                 Play Again ?
