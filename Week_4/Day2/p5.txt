@@ -1,0 +1,30 @@
+Time Complexity Table
+Operation	Average Case (Balanced)	Worst Case (Unbalanced)
+Search	O(log n)	O(n)
+Insert	O(log n)	O(n)
+Delete	O(log n)	O(n)
+Brief Explanation
+
+Search is O(log n) in a balanced BST because each comparison eliminates roughly half of the remaining nodes, similar to binary search.
+
+What happens when values are inserted in sorted order?
+
+Example: 5, 10, 15, 20, 25
+
+The tree becomes:
+
+5
+ \
+  10
+    \
+     15
+       \
+        20
+          \
+           25
+
+This creates a right-skewed tree that resembles a linked list.
+
+Why does this hurt performance?
+
+Because the tree is no longer balanced. Operations such as search, insert, and delete may need to visit every node, causing the time complexity to degrade from O(log n) to O(n).

@@ -1,0 +1,18 @@
+Node: Each individual element in a binary tree that stores data.
+Root: The topmost node of the tree from which all other nodes originate.
+Leaf: A node that has no children.
+Height: The number of edges on the longest path from the root to a leaf node.
+
+Given Tree:
+
+        8
+       / \
+      3   10
+     / \
+    1   6
+Answers
+Root: 8
+Leaf Nodes: 1, 6, 10
+Height: 2
+
+(Height is 2 because the longest path is 8 → 3 → 1 or 8 → 3 → 6, which contains 2 edges.)

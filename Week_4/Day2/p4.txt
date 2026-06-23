@@ -1,0 +1,20 @@
+Three Cases in BST Deletion
+1. Deleting a Leaf Node
+
+The node has no children, so it can simply be removed.
+
+2. Deleting a Node with One Child
+
+Replace the node with its only child.
+
+3. Deleting a Node with Two Children
+
+Replace the node's value with its inorder successor and then delete the successor node.
+
+What is an Inorder Successor?
+
+The inorder successor is the smallest value in the node's right subtree.
+
+Why do we use it?
+
+Using the inorder successor preserves the BST ordering property because it is the next larger value after the node being deleted.
